@@ -59,3 +59,14 @@ h3{
 #sponsors {
     margin: 20px 0px;
 }
+
+.socials-container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#website-logo{
+    filter: brightness(10);
+}
