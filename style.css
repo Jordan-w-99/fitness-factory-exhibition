@@ -37,6 +37,10 @@ h3{
     box-sizing: border-box;
 }
 
+#running-order {
+    padding: 0px !important;
+}
+
 .full-width-black-container {
     background-color: black;
     padding: 40px 0px;
@@ -69,4 +73,10 @@ h3{
 
 #website-logo{
     filter: brightness(10);
+}
+
+#bout-sponsors{
+    width: 30%;
+    min-width: 200px;
+    max-width: 800px;
 }
