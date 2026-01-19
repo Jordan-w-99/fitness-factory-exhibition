@@ -60,9 +60,9 @@ h3{
     
 }
 
-#sponsors {
+.sponsors {
     margin: 20px 0px;
-    width: 90%;
+    width: 80%;
     min-width: 200px;
     max-width: 800px;
 }
