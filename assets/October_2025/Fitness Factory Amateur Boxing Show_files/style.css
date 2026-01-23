@@ -13,7 +13,6 @@ body{
 
 p {
     font-size: small;
-    margin: 0;
 }
 
 @media(min-width:1024px){
@@ -44,7 +43,6 @@ p {
     color: white;
     text-shadow: 1px 1px 3px #0000009a;
     text-align: center;
-    padding: 1rem 0;
 }
 
 .website a {
@@ -54,14 +52,6 @@ p {
 
 #logo{
     max-height: 100px;
-    height: 60px;
-    width: auto;
-}
-
-@media(min-width:540px){
-    #logo {
-        height: 100px
-    }
 }
 
 h2{
@@ -73,11 +63,12 @@ h2{
 h3{
     margin: 5px 0px;
     font-size: 1.2rem;
-    color: rgb(61, 61, 61);
 }
 
 .content-img {
     width: 100%;
+    max-width: 800px;
+    padding: 0px 10%;
     box-sizing: border-box;
 }
 
@@ -91,14 +82,8 @@ section {
 
 .full-width-black-container {
     background-color: black;
-    padding: 20px 0px;
+    padding: 40px 0px;
     width: 100%;
-}
-
-@media(min-width:540px){
-    .full-width-black-container {
-        padding: 40px 0px;
-    }
 }
 
 .full-width-darker-container {
@@ -106,6 +91,7 @@ section {
     width: 100%;
     color: black;
 }
+
 
 .full-width-light-container {
     background-color: lightgray;
@@ -122,23 +108,18 @@ section {
 
 #sponsors-container{
     padding: 20px 0px;
-    text-align: center;
 }
 
 .sponsors {
-    height: 100px;
-    width: auto;
-}
-
-@media(min-width:540px){
-    .sponsors {
-        height: 200px;
-        width: auto;
-    }
+    margin: 20px 0px;
+    width: 80%;
+    min-width: 200px;
+    max-width: 800px;
 }
 
 #socials-section {
-    margin: 0.75rem 0;
+    padding: 10px 0px;
+    color: rgb(61, 61, 61);
 }
 
 #socials-section h3 {
@@ -166,8 +147,6 @@ section {
     display: flex;
     align-items: center;
     max-width: 100%;
-    text-decoration: none;
-    color: rgb(61, 61, 61);
 }
 
 .socials-container svg {
@@ -216,9 +195,4 @@ section {
     min-width: 200px;
     border-radius: 20px;
     max-width: 800px;
-}
-
-#running-order-section{
-    text-align: center;    
-    margin: 1.5rem 0;
 }
