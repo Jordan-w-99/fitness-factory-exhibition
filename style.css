@@ -222,3 +222,21 @@ section {
     text-align: center;    
     margin: 1.5rem 0;
 }
+
+#site-by {
+    color: rgb(201, 201, 201);
+    text-align: center;
+}
+
+#site-by a {
+    color: rgb(201, 201, 201);
+    text-decoration: underline dotted;
+}
+
+#footer-section {
+    padding: 2rem 0;
+    color: white;
+    text-shadow: 1px 1px 3px #0000009a;
+    text-align: center;
+    line-height: 1.75rem;
+}
