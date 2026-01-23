@@ -67,13 +67,22 @@ p {
 h2{
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
     margin: 5px 0px;
-    font-size: 2.2rem;
+    font-size: 1.5rem;
 }
 
 h3{
     margin: 5px 0px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: rgb(61, 61, 61);
+}
+
+@media(min-width:540px){
+    h2 {
+        font-size: 2.2rem
+    }
+    h3 {
+        font-size: 1.2rem
+    }
 }
 
 .content-img {
@@ -138,7 +147,7 @@ section {
 }
 
 #socials-section {
-    margin: 0.75rem 0;
+    margin: 1.5rem 0 0.75rem 0;
 }
 
 #socials-section h3 {
